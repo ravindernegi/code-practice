@@ -1,3 +1,11 @@
+/**
+ A closure is a function that "remembers" the environment in which it was created, even after that environment has gone out of scope. It allows a function to access variables from its outer (enclosing) function, even after the outer function has finished executing.
+Key Points:
+- Closures are created when a function is defined inside another function.
+- They "remember" the environment (variables) of the outer function.
+- Commonly used for data encapsulation, private variables, and callbacks.
+**/
+
 console.log("************ Example 1 ************");
 function createCounter() {
   let count = 0; // Private variable
