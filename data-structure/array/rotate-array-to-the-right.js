@@ -13,3 +13,7 @@ function rotateRight(arr, k) {
 let arr = [1, 2, 3, 4, 5];
 let k = 2;
 console.log(rotateRight(arr, k)); // Output: [4, 5, 1, 2, 3]
+
+
+
+
